@@ -37,7 +37,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 16 112 184 128)
+	(rect -24 112 144 128)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "x_1" (rect 5 0 23 12)(font "Arial" ))
 	(pt 168 8)
@@ -53,7 +53,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 96 136 264 152)
+	(rect -16 128 152 144)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "x_2" (rect 5 0 23 12)(font "Arial" ))
 	(pt 168 8)
@@ -69,7 +69,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 160 152 328 168)
+	(rect -8 144 160 160)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "x_3" (rect 5 0 23 12)(font "Arial" ))
 	(pt 168 8)
@@ -85,7 +85,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 224 168 392 184)
+	(rect 0 160 168 176)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "x_4" (rect 5 0 23 12)(font "Arial" ))
 	(pt 168 8)
@@ -481,10 +481,6 @@ applicable agreement for further details.
 	(pt 528 392)
 )
 (connector
-	(pt 200 120)
-	(pt 184 120)
-)
-(connector
 	(pt 464 464)
 	(pt 528 464)
 )
@@ -537,54 +533,69 @@ applicable agreement for further details.
 	(pt 200 104)
 )
 (connector
-	(pt 184 248)
-	(pt 184 120)
+	(pt 144 248)
+	(pt 144 120)
 )
 (connector
-	(pt 184 248)
 	(pt 520 248)
+	(pt 144 248)
 )
 (connector
-	(pt 264 328)
+	(pt 144 120)
+	(pt 200 120)
+)
+(connector
 	(pt 520 328)
+	(pt 152 328)
 )
 (connector
 	(pt 264 128)
-	(pt 264 144)
+	(pt 152 128)
 )
 (connector
-	(pt 264 144)
-	(pt 264 328)
+	(pt 152 128)
+	(pt 152 136)
 )
 (connector
-	(pt 328 408)
+	(pt 152 136)
+	(pt 152 328)
+)
+(connector
 	(pt 528 408)
+	(pt 160 408)
 )
 (connector
 	(pt 328 136)
-	(pt 328 160)
+	(pt 160 136)
 )
 (connector
-	(pt 328 160)
-	(pt 328 408)
+	(pt 160 136)
+	(pt 160 152)
 )
 (connector
-	(pt 392 480)
+	(pt 160 152)
+	(pt 160 408)
+)
+(connector
 	(pt 528 480)
+	(pt 168 480)
 )
 (connector
 	(pt 392 144)
-	(pt 392 176)
+	(pt 168 144)
 )
 (connector
-	(pt 392 176)
-	(pt 392 480)
+	(pt 168 144)
+	(pt 168 168)
+)
+(connector
+	(pt 168 168)
+	(pt 168 480)
 )
 (junction (pt 464 312))
 (junction (pt 464 392))
 (junction (pt 464 136))
 (junction (pt 464 232))
-(junction (pt 184 120))
-(junction (pt 264 144))
-(junction (pt 328 160))
-(junction (pt 392 176))
+(junction (pt 152 136))
+(junction (pt 160 152))
+(junction (pt 168 168))

@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 120 192 288 208)
+	(rect 144 192 312 208)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "x_0" (rect 5 0 23 12)(font "Arial" ))
 	(pt 168 8)
@@ -53,7 +53,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 160 224 328 240)
+	(rect 224 232 392 248)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "x_2" (rect 5 0 23 12)(font "Arial" ))
 	(pt 168 8)
@@ -69,7 +69,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 176 240 344 256)
+	(rect 312 264 480 280)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "x_3" (rect 5 0 23 12)(font "Arial" ))
 	(pt 168 8)
@@ -101,7 +101,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 504 360 680 376)
+	(rect 336 152 512 168)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "y_0" (rect 90 0 108 12)(font "Arial" ))
 	(pt 0 8)
@@ -117,7 +117,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 504 376 680 392)
+	(rect 336 288 512 304)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "y_1" (rect 90 0 108 12)(font "Arial" ))
 	(pt 0 8)
@@ -133,7 +133,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 504 392 680 408)
+	(rect 416 312 592 328)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "y_2" (rect 90 0 108 12)(font "Arial" ))
 	(pt 0 8)
@@ -149,7 +149,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 504 408 680 424)
+	(rect 504 344 680 360)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "y_3" (rect 90 0 108 12)(font "Arial" ))
 	(pt 0 8)
@@ -282,24 +282,32 @@ applicable agreement for further details.
 	(pt 520 216)
 )
 (connector
+	(pt 504 272)
+	(pt 504 232)
+)
+(connector
 	(pt 504 232)
 	(pt 520 232)
+)
+(connector
+	(pt 312 200)
+	(pt 328 200)
+)
+(connector
+	(pt 312 200)
+	(pt 312 160)
+)
+(connector
+	(pt 312 160)
+	(pt 336 160)
 )
 (connector
 	(pt 584 224)
 	(pt 608 224)
 )
 (connector
-	(pt 400 400)
-	(pt 504 400)
-)
-(connector
-	(pt 320 384)
-	(pt 504 384)
-)
-(connector
 	(pt 320 216)
-	(pt 320 384)
+	(pt 320 296)
 )
 (connector
 	(pt 312 216)
@@ -310,35 +318,15 @@ applicable agreement for further details.
 	(pt 328 216)
 )
 (connector
-	(pt 304 200)
-	(pt 304 368)
-)
-(connector
-	(pt 288 200)
-	(pt 304 200)
-)
-(connector
-	(pt 304 200)
-	(pt 328 200)
-)
-(connector
-	(pt 304 368)
-	(pt 504 368)
+	(pt 320 296)
+	(pt 336 296)
 )
 (connector
 	(pt 400 240)
-	(pt 400 400)
+	(pt 400 320)
 )
 (connector
-	(pt 336 232)
-	(pt 336 240)
-)
-(connector
-	(pt 328 232)
-	(pt 336 232)
-)
-(connector
-	(pt 336 240)
+	(pt 392 240)
 	(pt 400 240)
 )
 (connector
@@ -346,26 +334,26 @@ applicable agreement for further details.
 	(pt 416 240)
 )
 (connector
-	(pt 504 232)
-	(pt 504 248)
+	(pt 400 320)
+	(pt 416 320)
 )
 (connector
-	(pt 504 416)
-	(pt 496 416)
+	(pt 488 272)
+	(pt 488 352)
 )
 (connector
-	(pt 496 248)
-	(pt 496 416)
+	(pt 480 272)
+	(pt 488 272)
 )
 (connector
-	(pt 344 248)
-	(pt 496 248)
+	(pt 488 272)
+	(pt 504 272)
 )
 (connector
-	(pt 496 248)
-	(pt 504 248)
+	(pt 488 352)
+	(pt 504 352)
 )
+(junction (pt 312 200))
 (junction (pt 320 216))
 (junction (pt 400 240))
-(junction (pt 304 200))
-(junction (pt 496 248))
+(junction (pt 488 272))
