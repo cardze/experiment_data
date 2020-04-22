@@ -1,0 +1,93 @@
+|component_test
+com <= <VCC>
+output5 <= <GND>
+output6 <= <GND>
+output7 <= <GND>
+output8 <= <GND>
+output9 <= <GND>
+output10 <= <GND>
+output11 <= <GND>
+output12 <= <GND>
+output1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CLK => clk_gen:inst.clock
+CLK => debounce_g:inst8.CLK
+din => debounce_g:inst8.Key_in
+output2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+output3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+output4 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+DE1 <= <GND>
+DE2 <= <GND>
+DE3 <= <GND>
+
+
+|component_test|clk_gen:inst
+1KHz <= div10_t:inst3.CLK_out
+clock => div10_t:inst.CLK
+100Hz <= div10_t:inst4.CLK_out
+10Hz <= div10_t:inst5.CLK_out
+1Hz <= div10_t:inst6.CLK_out
+
+
+|component_test|clk_gen:inst|div10_t:inst3
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|component_test|clk_gen:inst|div10_t:inst2
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|component_test|clk_gen:inst|div10_t:inst1
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|component_test|clk_gen:inst|div10_t:inst
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|component_test|clk_gen:inst|div10_t:inst4
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|component_test|clk_gen:inst|div10_t:inst5
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|component_test|clk_gen:inst|div10_t:inst6
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|component_test|debounce_g:inst8
+Key_out <= 16.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 1.CLK
+CLK => 2.CLK
+Key_in => 1.DATAIN
+
+

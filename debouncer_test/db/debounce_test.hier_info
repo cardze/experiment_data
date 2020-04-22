@@ -1,0 +1,179 @@
+|debounce_test
+A <= S_S_SH:inst1.a
+din => debounce_g:inst8.Key_in
+clk => clk_gen:inst5.clock
+B <= S_S_SH:inst1.b
+C <= S_S_SH:inst1.c
+D <= S_S_SH:inst1.d
+E <= S_S_SH:inst1.e
+F <= S_S_SH:inst1.f
+G <= S_S_SH:inst1.g
+DE1 <= <GND>
+DE2 <= <GND>
+DE3 <= <GND>
+
+
+|debounce_test|S_S_SH:inst1
+a <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst1.IN0
+A0 => inst2.IN0
+A0 => inst6.IN0
+A0 => inst7.IN0
+A0 => inst15.IN0
+A0 => inst16.IN0
+A0 => inst17.IN0
+A0 => inst24.IN0
+A0 => inst12.IN0
+A0 => inst31.IN0
+A0 => inst38.IN0
+A0 => inst30.IN0
+A0 => inst35.IN0
+A0 => inst44.IN0
+A0 => inst45.IN0
+A0 => inst46.IN0
+A0 => inst52.IN0
+A0 => inst53.IN0
+A0 => inst54.IN0
+A2 => inst1.IN1
+A2 => inst2.IN1
+A2 => inst6.IN1
+A2 => inst11.IN0
+A2 => inst15.IN1
+A2 => inst16.IN1
+A2 => inst22.IN0
+A2 => inst18.IN1
+A2 => inst13.IN0
+A2 => inst33.IN0
+A2 => inst29.IN2
+A2 => inst41.IN0
+A2 => inst28.IN2
+A2 => inst44.IN1
+A2 => inst48.IN0
+A2 => inst49.IN0
+A2 => inst52.IN1
+A2 => inst53.IN1
+A2 => inst58.IN0
+A3 => inst3.IN0
+A3 => inst2.IN2
+A3 => inst9.IN0
+A3 => inst7.IN2
+A3 => inst19.IN0
+A3 => inst16.IN2
+A3 => inst23.IN0
+A3 => inst25.IN0
+A3 => inst12.IN2
+A3 => inst34.IN0
+A3 => inst39.IN0
+A3 => inst42.IN0
+A3 => inst37.IN0
+A3 => inst47.IN0
+A3 => inst45.IN2
+A3 => inst50.IN0
+A3 => inst52.IN2
+A3 => inst55.IN0
+A3 => inst57.IN0
+A1 => inst1.IN3
+A1 => inst4.IN0
+A1 => inst8.IN0
+A1 => inst10.IN0
+A1 => inst15.IN3
+A1 => inst20.IN0
+A1 => inst21.IN0
+A1 => inst18.IN3
+A1 => inst12.IN3
+A1 => inst32.IN0
+A1 => inst29.IN1
+A1 => inst40.IN0
+A1 => inst36.IN0
+A1 => inst44.IN3
+A1 => inst45.IN3
+A1 => inst46.IN3
+A1 => inst52.IN3
+A1 => inst53.IN3
+A1 => inst56.IN0
+b <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst43.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst51.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|debounce_test|DFF_Application:inst
+A <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+CLK => inst1.CLK
+B <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|debounce_test|debounce_g:inst8
+Key_out <= 16.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 1.CLK
+CLK => 2.CLK
+Key_in => 1.DATAIN
+
+
+|debounce_test|clk_gen:inst5
+1KHz <= div10_t:inst3.CLK_out
+clock => div10_t:inst.CLK
+100Hz <= div10_t:inst4.CLK_out
+10Hz <= div10_t:inst5.CLK_out
+1Hz <= div10_t:inst6.CLK_out
+
+
+|debounce_test|clk_gen:inst5|div10_t:inst3
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|debounce_test|clk_gen:inst5|div10_t:inst2
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|debounce_test|clk_gen:inst5|div10_t:inst1
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|debounce_test|clk_gen:inst5|div10_t:inst
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|debounce_test|clk_gen:inst5|div10_t:inst4
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|debounce_test|clk_gen:inst5|div10_t:inst5
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|debounce_test|clk_gen:inst5|div10_t:inst6
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
