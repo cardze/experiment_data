@@ -1,0 +1,90 @@
+$comment
+	File created using the following command:
+		vcd file test.msim.vcd -direction
+$end
+$date
+	Wed May 06 14:20:37 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module test_vlg_vec_tst $end
+$var reg 1 ! input_1 $end
+$var reg 1 " input_2 $end
+$var wire 1 # or_result $end
+$var wire 1 $ sampler $end
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 , input_1~input_o $end
+$var wire 1 - input_2~input_o $end
+$var wire 1 . or_gate~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+0.
+$end
+#128000
+1"
+1-
+0$
+1.
+1#
+#256000
+1!
+0"
+1,
+0-
+1$
+#384000
+1"
+1-
+0$
+#512000
+0!
+0"
+0,
+0-
+1$
+0.
+0#
+#640000
+1"
+1-
+0$
+1.
+1#
+#768000
+1!
+0"
+1,
+0-
+1$
+#896000
+1"
+1-
+0$
+#1000000

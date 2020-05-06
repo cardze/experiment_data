@@ -1,0 +1,147 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
+
+// DATE "05/06/2020 14:20:33"
+
+// 
+// Device: Altera 5CGXFC7C7F23C8 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module test (
+	input_1,
+	input_2,
+	or_result);
+input 	input_1;
+input 	input_2;
+output 	or_result;
+
+// Design Ports Information
+// or_result	=>  Location: PIN_K9,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// input_1	=>  Location: PIN_H11,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// input_2	=>  Location: PIN_L8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \~QUARTUS_CREATED_GND~I_combout ;
+wire \input_1~input_o ;
+wire \input_2~input_o ;
+wire \or_gate~0_combout ;
+
+
+// Location: IOOBUF_X52_Y81_N53
+cyclonev_io_obuf \or_result~output (
+	.i(\or_gate~0_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(or_result),
+	.obar());
+// synopsys translate_off
+defparam \or_result~output .bus_hold = "false";
+defparam \or_result~output .open_drain_output = "false";
+defparam \or_result~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X52_Y81_N1
+cyclonev_io_ibuf \input_1~input (
+	.i(input_1),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\input_1~input_o ));
+// synopsys translate_off
+defparam \input_1~input .bus_hold = "false";
+defparam \input_1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X52_Y81_N35
+cyclonev_io_ibuf \input_2~input (
+	.i(input_2),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\input_2~input_o ));
+// synopsys translate_off
+defparam \input_2~input .bus_hold = "false";
+defparam \input_2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: MLABCELL_X52_Y80_N30
+cyclonev_lcell_comb \or_gate~0 (
+// Equation(s):
+// \or_gate~0_combout  = ( \input_2~input_o  ) # ( !\input_2~input_o  & ( \input_1~input_o  ) )
+
+	.dataa(gnd),
+	.datab(!\input_1~input_o ),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(!\input_2~input_o ),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\or_gate~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \or_gate~0 .extended_lut = "off";
+defparam \or_gate~0 .lut_mask = 64'h33333333FFFFFFFF;
+defparam \or_gate~0 .shared_arith = "off";
+// synopsys translate_on
+
+// Location: LABCELL_X75_Y39_N0
+cyclonev_lcell_comb \~QUARTUS_CREATED_GND~I (
+// Equation(s):
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\~QUARTUS_CREATED_GND~I_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \~QUARTUS_CREATED_GND~I .extended_lut = "off";
+defparam \~QUARTUS_CREATED_GND~I .lut_mask = 64'h0000000000000000;
+defparam \~QUARTUS_CREATED_GND~I .shared_arith = "off";
+// synopsys translate_on
+
+endmodule

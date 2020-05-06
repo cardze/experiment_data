@@ -1,0 +1,10 @@
+|tes_013
+input_A => gateway_3.IN0
+input_A => gateway_1.IN0
+input_A => gateway_2.IN0
+input_B => gateway_2.IN1
+input_B => gateway_3.IN1
+input_B => gateway_1.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+
+

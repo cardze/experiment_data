@@ -1,0 +1,6 @@
+|test_not_A_and_b
+input_A => result.IN0
+input_B => result.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+
+

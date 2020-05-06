@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.1/VHDL_test_not_A_and_B/test_not_A_and_b.vhd
+source_file = 1, C:/altera/13.1/VHDL_test_not_A_and_B/Waveform.vwf
+source_file = 1, C:/altera/13.1/VHDL_test_not_A_and_B/db/test_not_A_and_b.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = test_not_A_and_b
+instance = comp, \result~output , result~output, test_not_A_and_b, 1
+instance = comp, \input_A~input , input_A~input, test_not_A_and_b, 1
+instance = comp, \input_B~input , input_B~input, test_not_A_and_b, 1
+instance = comp, \result~0 , result~0, test_not_A_and_b, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, test_not_A_and_b, 1

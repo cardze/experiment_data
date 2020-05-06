@@ -1,0 +1,8 @@
+|test_ab_and_bc
+input_A => gate_1.IN0
+input_B => gate_1.IN1
+input_B => gate_2.IN0
+input_C => gate_2.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+
+

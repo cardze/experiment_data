@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.1/VHDL_test_013/tes_013.vhd
+source_file = 1, C:/altera/13.1/VHDL_test_013/Waveform.vwf
+source_file = 1, C:/altera/13.1/VHDL_test_013/db/tes_013.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = tes_013
+instance = comp, \result~output , result~output, tes_013, 1
+instance = comp, \input_A~input , input_A~input, tes_013, 1
+instance = comp, \input_B~input , input_B~input, tes_013, 1
+instance = comp, \result~0 , result~0, tes_013, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, tes_013, 1

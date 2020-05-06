@@ -1,0 +1,55 @@
+|seven_with_VHDL
+pin_name5 <= <GND>
+pin_name6 <= <GND>
+pin_name7 <= <GND>
+pin_name8 <= <GND>
+pin_name9 <= <GND>
+pin_name10 <= <GND>
+pin_name11 <= <GND>
+DE1 <= <GND>
+DE2 <= <GND>
+DE3 <= <GND>
+pin_name1 => ~NO_FANOUT~
+pin_name2 => ~NO_FANOUT~
+pin_name3 => ~NO_FANOUT~
+pin_name4 => ~NO_FANOUT~
+
+
+|seven_with_VHDL|test_vec:inst1
+input_x[0] => Mux0.IN19
+input_x[0] => Mux1.IN19
+input_x[0] => Mux2.IN19
+input_x[0] => Mux3.IN19
+input_x[0] => Mux4.IN19
+input_x[0] => Mux5.IN19
+input_x[0] => Mux6.IN19
+input_x[1] => Mux0.IN18
+input_x[1] => Mux1.IN18
+input_x[1] => Mux2.IN18
+input_x[1] => Mux3.IN18
+input_x[1] => Mux4.IN18
+input_x[1] => Mux5.IN18
+input_x[1] => Mux6.IN18
+input_x[2] => Mux0.IN17
+input_x[2] => Mux1.IN17
+input_x[2] => Mux2.IN17
+input_x[2] => Mux3.IN17
+input_x[2] => Mux4.IN17
+input_x[2] => Mux5.IN17
+input_x[2] => Mux6.IN17
+input_x[3] => Mux0.IN16
+input_x[3] => Mux1.IN16
+input_x[3] => Mux2.IN16
+input_x[3] => Mux3.IN16
+input_x[3] => Mux4.IN16
+input_x[3] => Mux5.IN16
+input_x[3] => Mux6.IN16
+result_y[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+result_y[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+result_y[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+result_y[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+result_y[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+result_y[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+result_y[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

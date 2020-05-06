@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1\VHDL_test_ab_and_bc\simulation\qsim
+vtest_ab_and_bc
+Z1 I^fEW=OCR0`HVAle`CYHSe2
+Z2 V?[51D3mARIUU1j871RjWd2
+Z3 dC:\altera\13.1\VHDL_test_ab_and_bc\simulation\qsim
+Z4 w1588749573
+Z5 8test_ab_and_bc.vo
+Z6 Ftest_ab_and_bc.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 Aom4jfIX]Y3B_oXd<ojnC0
+!s85 0
+Z10 !s108 1588749574.084000
+Z11 !s107 test_ab_and_bc.vo|
+Z12 !s90 -work|work|test_ab_and_bc.vo|
+!s101 -O0
+vtest_ab_and_bc_vlg_check_tst
+!i10b 1
+!s100 86bQgMIF<1^M1ECJI>3Nm1
+IcOOf4aJY=z[gki:19Q79N1
+V^:GP7i:Pb6HobLM?0mlbM0
+R3
+Z13 w1588749571
+Z14 8Waveform.vwf.vt
+Z15 FWaveform.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1588749574.127000
+Z17 !s107 Waveform.vwf.vt|
+Z18 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+vtest_ab_and_bc_vlg_sample_tst
+!i10b 1
+!s100 2Tce]Jf94l`Z]ma>GgFBV1
+I0klQ2Z4oob>oK5H2zdNI;3
+VZQ26AZDUeaU<mBZhBn6IV1
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vtest_ab_and_bc_vlg_vec_tst
+!i10b 1
+!s100 L395iU8Ekd=MMk7eO3C:[3
+Ia==GS<Pm:c[V:`d?_`@622
+V9AI5WSSOIA>KomD[9[ZjW0
+R3
+R13
+R14
+R15
+L0 156
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
