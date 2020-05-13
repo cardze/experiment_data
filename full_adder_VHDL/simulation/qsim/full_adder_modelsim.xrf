@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.1/full_adder_VHDL/full_adder.vhd
+source_file = 1, C:/altera/13.1/full_adder_VHDL/Waveform.vwf
+source_file = 1, C:/altera/13.1/full_adder_VHDL/db/full_adder.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = full_adder
+instance = comp, \Y[0]~output , Y[0]~output, full_adder, 1
+instance = comp, \Y[1]~output , Y[1]~output, full_adder, 1
+instance = comp, \X[2]~input , X[2]~input, full_adder, 1
+instance = comp, \X[1]~input , X[1]~input, full_adder, 1
+instance = comp, \X[0]~input , X[0]~input, full_adder, 1
+instance = comp, \Mux1~0 , Mux1~0, full_adder, 1
+instance = comp, \Mux0~0 , Mux0~0, full_adder, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, full_adder, 1

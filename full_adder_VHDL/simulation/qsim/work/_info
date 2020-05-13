@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1\full_adder_VHDL\simulation\qsim
+vfull_adder
+Z1 !s100 @HG3h[O;^zGQ<1e3;dzMb3
+Z2 IRK[]hiV3;YJ:XIPm0gP<R3
+Z3 VVDKz>O6C@d^a8GCo2X?QM1
+Z4 dC:\altera\13.1\full_adder_VHDL\simulation\qsim
+Z5 w1589350828
+Z6 8full_adder.vo
+Z7 Ffull_adder.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|full_adder.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1589350829.168000
+Z12 !s107 full_adder.vo|
+!s101 -O0
+vfull_adder_vlg_check_tst
+!i10b 1
+Z13 !s100 QFVZL_TNMBejdbL12;HTm1
+Z14 I9;lP`KmKZk>DlRHnD^7@?3
+Z15 Vfo9mUHc^TD?eT6jmVLk9U0
+R4
+Z16 w1589350826
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z19 !s108 1589350829.235000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vfull_adder_vlg_sample_tst
+!i10b 1
+Z22 !s100 dd@>VUZR8QL<MVPYHF?Je2
+Z23 I;FJjCCDI:>b0_;a>ZY0>g2
+Z24 Vi=C?hgIJ:YHdbgBgfd;^03
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vfull_adder_vlg_vec_tst
+!i10b 1
+!s100 _lPeNK<be@492@Ei@eTPl2
+Ide6Qf`@;X2Z?l5=U6bTc62
+Z25 VYcA9o=ef0RHic;;ZJODc61
+R4
+R16
+R17
+R18
+Z26 L0 169
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

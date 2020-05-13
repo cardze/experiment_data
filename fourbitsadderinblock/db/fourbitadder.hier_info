@@ -1,0 +1,67 @@
+|fourbitadder
+Y[0] <= full_adder:inst.Y[0]
+Y[1] <= full_adder:inst.Y[1]
+X[0] => full_adder:inst.X[0]
+X[1] => full_adder:inst.X[1]
+X[2] => full_adder:inst.X[2]
+Y4[0] <= full_adder:inst_a.Y[0]
+Y4[1] <= full_adder:inst_a.Y[1]
+X3[0] => full_adder:inst_a.X[0]
+X3[1] => full_adder:inst_a.X[1]
+X3[2] => full_adder:inst_a.X[2]
+Y5[0] <= full_adder:inst_a6.Y[0]
+Y5[1] <= full_adder:inst_a6.Y[1]
+X5[0] => full_adder:inst_a6.X[0]
+X5[1] => full_adder:inst_a6.X[1]
+X5[2] => full_adder:inst_a6.X[2]
+Y6[0] <= full_adder:inst_a5.Y[0]
+Y6[1] <= full_adder:inst_a5.Y[1]
+X4[0] => full_adder:inst_a5.X[0]
+X4[1] => full_adder:inst_a5.X[1]
+X4[2] => full_adder:inst_a5.X[2]
+
+
+|fourbitadder|full_adder:inst
+X[0] => Mux0.IN10
+X[0] => Mux1.IN10
+X[1] => Mux0.IN9
+X[1] => Mux1.IN9
+X[2] => Mux0.IN8
+X[2] => Mux1.IN8
+Y[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fourbitadder|full_adder:inst_a
+X[0] => Mux0.IN10
+X[0] => Mux1.IN10
+X[1] => Mux0.IN9
+X[1] => Mux1.IN9
+X[2] => Mux0.IN8
+X[2] => Mux1.IN8
+Y[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fourbitadder|full_adder:inst_a6
+X[0] => Mux0.IN10
+X[0] => Mux1.IN10
+X[1] => Mux0.IN9
+X[1] => Mux1.IN9
+X[2] => Mux0.IN8
+X[2] => Mux1.IN8
+Y[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fourbitadder|full_adder:inst_a5
+X[0] => Mux0.IN10
+X[0] => Mux1.IN10
+X[1] => Mux0.IN9
+X[1] => Mux1.IN9
+X[2] => Mux0.IN8
+X[2] => Mux1.IN8
+Y[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
