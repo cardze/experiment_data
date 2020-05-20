@@ -1,0 +1,137 @@
+|test_counter_from_zero_seven
+DE1 <= <GND>
+DE2 <= <GND>
+DE3 <= <GND>
+result_y[0] <= test_vec:inst5.result_y[0]
+result_y[1] <= test_vec:inst5.result_y[1]
+result_y[2] <= test_vec:inst5.result_y[2]
+result_y[3] <= test_vec:inst5.result_y[3]
+result_y[4] <= test_vec:inst5.result_y[4]
+result_y[5] <= test_vec:inst5.result_y[5]
+result_y[6] <= test_vec:inst5.result_y[6]
+clk => clk_gen:inst4.clock
+
+
+|test_counter_from_zero_seven|test_vec:inst5
+input_x[0] => Mux0.IN19
+input_x[0] => Mux1.IN19
+input_x[0] => Mux2.IN19
+input_x[0] => Mux3.IN19
+input_x[0] => Mux4.IN19
+input_x[0] => Mux5.IN19
+input_x[0] => Mux6.IN19
+input_x[1] => Mux0.IN18
+input_x[1] => Mux1.IN18
+input_x[1] => Mux2.IN18
+input_x[1] => Mux3.IN18
+input_x[1] => Mux4.IN18
+input_x[1] => Mux5.IN18
+input_x[1] => Mux6.IN18
+input_x[2] => Mux0.IN17
+input_x[2] => Mux1.IN17
+input_x[2] => Mux2.IN17
+input_x[2] => Mux3.IN17
+input_x[2] => Mux4.IN17
+input_x[2] => Mux5.IN17
+input_x[2] => Mux6.IN17
+input_x[3] => Mux0.IN16
+input_x[3] => Mux1.IN16
+input_x[3] => Mux2.IN16
+input_x[3] => Mux3.IN16
+input_x[3] => Mux4.IN16
+input_x[3] => Mux5.IN16
+input_x[3] => Mux6.IN16
+result_y[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+result_y[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+result_y[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+result_y[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+result_y[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+result_y[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+result_y[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_counter_from_zero_seven|counter_test:inst
+clk => temp[0].CLK
+clk => temp[1].CLK
+clk => temp[2].CLK
+x => temp.OUTPUTSELECT
+x => temp.OUTPUTSELECT
+x => temp.OUTPUTSELECT
+pre_result[0] => Mux0.IN10
+pre_result[0] => Mux1.IN5
+pre_result[0] => temp.DATAA
+pre_result[0] => temp.DATAB
+pre_result[1] => Mux0.IN9
+pre_result[1] => Mux1.IN4
+pre_result[1] => temp.DATAA
+pre_result[2] => Mux0.IN8
+pre_result[2] => temp.DATAA
+out_put[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+out_put[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+out_put[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_counter_from_zero_seven|clk_gen:inst4
+1KHz <= div10_t:inst3.CLK_out
+clock => div10_t:inst.CLK
+100Hz <= div10_t:inst4.CLK_out
+10Hz <= div10_t:inst5.CLK_out
+1Hz <= div10_t:inst6.CLK_out
+
+
+|test_counter_from_zero_seven|clk_gen:inst4|div10_t:inst3
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|test_counter_from_zero_seven|clk_gen:inst4|div10_t:inst2
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|test_counter_from_zero_seven|clk_gen:inst4|div10_t:inst1
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|test_counter_from_zero_seven|clk_gen:inst4|div10_t:inst
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|test_counter_from_zero_seven|clk_gen:inst4|div10_t:inst4
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|test_counter_from_zero_seven|clk_gen:inst4|div10_t:inst5
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|test_counter_from_zero_seven|clk_gen:inst4|div10_t:inst6
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+

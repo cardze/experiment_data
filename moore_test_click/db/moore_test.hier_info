@@ -1,0 +1,161 @@
+|moore_test
+DE1 <= <GND>
+DE2 <= <GND>
+DE3 <= <GND>
+result_y[0] <= test_vec:inst1.result_y[0]
+result_y[1] <= test_vec:inst1.result_y[1]
+result_y[2] <= test_vec:inst1.result_y[2]
+result_y[3] <= test_vec:inst1.result_y[3]
+result_y[4] <= test_vec:inst1.result_y[4]
+result_y[5] <= test_vec:inst1.result_y[5]
+result_y[6] <= test_vec:inst1.result_y[6]
+pin_name2 => debounce_g:inst.Key_in
+pin_name1 => clk_gen:inst2.clock
+x => one_five_seven_six:inst4.x
+
+
+|moore_test|test_vec:inst1
+input_x[0] => Mux0.IN19
+input_x[0] => Mux1.IN19
+input_x[0] => Mux2.IN19
+input_x[0] => Mux3.IN19
+input_x[0] => Mux4.IN19
+input_x[0] => Mux5.IN19
+input_x[0] => Mux6.IN19
+input_x[1] => Mux0.IN18
+input_x[1] => Mux1.IN18
+input_x[1] => Mux2.IN18
+input_x[1] => Mux3.IN18
+input_x[1] => Mux4.IN18
+input_x[1] => Mux5.IN18
+input_x[1] => Mux6.IN18
+input_x[2] => Mux0.IN17
+input_x[2] => Mux1.IN17
+input_x[2] => Mux2.IN17
+input_x[2] => Mux3.IN17
+input_x[2] => Mux4.IN17
+input_x[2] => Mux5.IN17
+input_x[2] => Mux6.IN17
+input_x[3] => Mux0.IN16
+input_x[3] => Mux1.IN16
+input_x[3] => Mux2.IN16
+input_x[3] => Mux3.IN16
+input_x[3] => Mux4.IN16
+input_x[3] => Mux5.IN16
+input_x[3] => Mux6.IN16
+result_y[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+result_y[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+result_y[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+result_y[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+result_y[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+result_y[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+result_y[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|moore_test|one_five_seven_six:inst4
+clk => temp[0].CLK
+clk => temp[1].CLK
+clk => temp[2].CLK
+clk => temp[3].CLK
+x => temp.OUTPUTSELECT
+x => temp.OUTPUTSELECT
+x => temp.OUTPUTSELECT
+pre_result[0] => Mux0.IN19
+pre_result[0] => Mux1.IN10
+pre_result[0] => Mux2.IN19
+pre_result[0] => Mux3.IN19
+pre_result[0] => Mux5.IN19
+pre_result[1] => Mux0.IN18
+pre_result[1] => Mux2.IN18
+pre_result[1] => Mux3.IN18
+pre_result[1] => Mux4.IN10
+pre_result[1] => Mux5.IN18
+pre_result[2] => Mux0.IN17
+pre_result[2] => Mux1.IN9
+pre_result[2] => Mux2.IN17
+pre_result[2] => Mux3.IN17
+pre_result[2] => Mux4.IN9
+pre_result[2] => Mux5.IN17
+pre_result[3] => Mux0.IN16
+pre_result[3] => Mux1.IN8
+pre_result[3] => Mux2.IN16
+pre_result[3] => Mux3.IN16
+pre_result[3] => Mux4.IN8
+pre_result[3] => Mux5.IN16
+out_put[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+out_put[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+out_put[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+out_put[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|moore_test|debounce_g:inst
+Key_out <= 16.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 1.CLK
+CLK => 2.CLK
+Key_in => 1.DATAIN
+
+
+|moore_test|clk_gen:inst2
+1KHz <= div10_t:inst3.CLK_out
+clock => div10_t:inst.CLK
+100Hz <= div10_t:inst4.CLK_out
+10Hz <= div10_t:inst5.CLK_out
+1Hz <= div10_t:inst6.CLK_out
+
+
+|moore_test|clk_gen:inst2|div10_t:inst3
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|moore_test|clk_gen:inst2|div10_t:inst2
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|moore_test|clk_gen:inst2|div10_t:inst1
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|moore_test|clk_gen:inst2|div10_t:inst
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|moore_test|clk_gen:inst2|div10_t:inst4
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|moore_test|clk_gen:inst2|div10_t:inst5
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
+|moore_test|clk_gen:inst2|div10_t:inst6
+CLK_out <= 2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 5.CLK
+CLK => 3.CLK
+CLK => 1.CLK
+CLK => 2.CLK
+
+
