@@ -1,0 +1,389 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst3|2'
+Slack : -1.572
+TNS   : -8.245
+
+Type  : Slow 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst6|2'
+Slack : -1.566
+TNS   : -2.806
+
+Type  : Slow 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst1|2'
+Slack : -1.527
+TNS   : -6.519
+
+Type  : Slow 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst5|2'
+Slack : -1.477
+TNS   : -7.894
+
+Type  : Slow 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst4|2'
+Slack : -1.403
+TNS   : -6.103
+
+Type  : Slow 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst2|2'
+Slack : -1.293
+TNS   : -6.161
+
+Type  : Slow 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst|2'
+Slack : -1.209
+TNS   : -4.945
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -0.820
+TNS   : -2.692
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -2.001
+TNS   : -3.648
+
+Type  : Slow 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst|2'
+Slack : -0.874
+TNS   : -1.736
+
+Type  : Slow 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst5|2'
+Slack : -0.870
+TNS   : -1.658
+
+Type  : Slow 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst1|2'
+Slack : -0.832
+TNS   : -1.636
+
+Type  : Slow 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst4|2'
+Slack : -0.624
+TNS   : -1.237
+
+Type  : Slow 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst2|2'
+Slack : -0.610
+TNS   : -1.183
+
+Type  : Slow 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst3|2'
+Slack : -0.538
+TNS   : -1.053
+
+Type  : Slow 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst6|2'
+Slack : 0.768
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst5|2'
+Slack : -0.724
+TNS   : -6.660
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst3|2'
+Slack : -0.724
+TNS   : -6.642
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst1|2'
+Slack : -0.724
+TNS   : -5.888
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst|2'
+Slack : -0.724
+TNS   : -5.720
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst2|2'
+Slack : -0.724
+TNS   : -5.515
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst4|2'
+Slack : -0.724
+TNS   : -5.512
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -4.558
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst6|2'
+Slack : -0.724
+TNS   : -2.246
+
+Type  : Slow 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst3|2'
+Slack : -1.652
+TNS   : -8.512
+
+Type  : Slow 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst6|2'
+Slack : -1.645
+TNS   : -2.907
+
+Type  : Slow 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst1|2'
+Slack : -1.602
+TNS   : -6.694
+
+Type  : Slow 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst5|2'
+Slack : -1.558
+TNS   : -8.058
+
+Type  : Slow 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst4|2'
+Slack : -1.440
+TNS   : -6.224
+
+Type  : Slow 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst2|2'
+Slack : -1.288
+TNS   : -6.207
+
+Type  : Slow 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst|2'
+Slack : -1.230
+TNS   : -4.899
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -1.021
+TNS   : -3.087
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -2.038
+TNS   : -3.860
+
+Type  : Slow 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst|2'
+Slack : -0.808
+TNS   : -1.609
+
+Type  : Slow 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst5|2'
+Slack : -0.714
+TNS   : -1.321
+
+Type  : Slow 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst1|2'
+Slack : -0.618
+TNS   : -1.201
+
+Type  : Slow 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst4|2'
+Slack : -0.587
+TNS   : -1.161
+
+Type  : Slow 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst2|2'
+Slack : -0.554
+TNS   : -1.072
+
+Type  : Slow 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst3|2'
+Slack : -0.398
+TNS   : -0.757
+
+Type  : Slow 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst6|2'
+Slack : 0.781
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst5|2'
+Slack : -0.724
+TNS   : -6.639
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst3|2'
+Slack : -0.724
+TNS   : -6.615
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst1|2'
+Slack : -0.724
+TNS   : -5.822
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst|2'
+Slack : -0.724
+TNS   : -5.695
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst4|2'
+Slack : -0.724
+TNS   : -5.537
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst2|2'
+Slack : -0.724
+TNS   : -5.525
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -4.545
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst6|2'
+Slack : -0.724
+TNS   : -2.248
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -0.713
+TNS   : -1.141
+
+Type  : Fast 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst3|2'
+Slack : -0.279
+TNS   : -1.337
+
+Type  : Fast 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst1|2'
+Slack : -0.278
+TNS   : -0.997
+
+Type  : Fast 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst6|2'
+Slack : -0.274
+TNS   : -0.447
+
+Type  : Fast 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst5|2'
+Slack : -0.267
+TNS   : -1.165
+
+Type  : Fast 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst2|2'
+Slack : -0.233
+TNS   : -1.073
+
+Type  : Fast 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst4|2'
+Slack : -0.225
+TNS   : -0.824
+
+Type  : Fast 1100mV 85C Model Setup 'clk_gen:inst4|div10_t:inst|2'
+Slack : -0.173
+TNS   : -0.595
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -0.886
+TNS   : -1.721
+
+Type  : Fast 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst1|2'
+Slack : -0.612
+TNS   : -1.204
+
+Type  : Fast 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst|2'
+Slack : -0.604
+TNS   : -1.200
+
+Type  : Fast 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst5|2'
+Slack : -0.539
+TNS   : -1.058
+
+Type  : Fast 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst4|2'
+Slack : -0.456
+TNS   : -0.895
+
+Type  : Fast 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst2|2'
+Slack : -0.442
+TNS   : -0.861
+
+Type  : Fast 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst3|2'
+Slack : -0.430
+TNS   : -0.822
+
+Type  : Fast 1100mV 85C Model Hold 'clk_gen:inst4|div10_t:inst6|2'
+Slack : 0.274
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.403
+TNS   : -0.731
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst1|2'
+Slack : 0.056
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst|2'
+Slack : 0.123
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst6|2'
+Slack : 0.126
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst4|2'
+Slack : 0.129
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst2|2'
+Slack : 0.144
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst5|2'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst3|2'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -0.589
+TNS   : -0.890
+
+Type  : Fast 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst1|2'
+Slack : -0.241
+TNS   : -0.805
+
+Type  : Fast 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst3|2'
+Slack : -0.240
+TNS   : -1.157
+
+Type  : Fast 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst6|2'
+Slack : -0.236
+TNS   : -0.367
+
+Type  : Fast 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst2|2'
+Slack : -0.227
+TNS   : -0.934
+
+Type  : Fast 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst5|2'
+Slack : -0.226
+TNS   : -0.897
+
+Type  : Fast 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst4|2'
+Slack : -0.216
+TNS   : -0.699
+
+Type  : Fast 1100mV 0C Model Setup 'clk_gen:inst4|div10_t:inst|2'
+Slack : -0.170
+TNS   : -0.469
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -0.908
+TNS   : -1.758
+
+Type  : Fast 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst|2'
+Slack : -0.586
+TNS   : -1.166
+
+Type  : Fast 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst1|2'
+Slack : -0.560
+TNS   : -1.102
+
+Type  : Fast 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst5|2'
+Slack : -0.493
+TNS   : -0.977
+
+Type  : Fast 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst4|2'
+Slack : -0.443
+TNS   : -0.870
+
+Type  : Fast 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst2|2'
+Slack : -0.422
+TNS   : -0.830
+
+Type  : Fast 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst3|2'
+Slack : -0.397
+TNS   : -0.767
+
+Type  : Fast 1100mV 0C Model Hold 'clk_gen:inst4|div10_t:inst6|2'
+Slack : 0.254
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.389
+TNS   : -0.722
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst1|2'
+Slack : 0.069
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst6|2'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst4|2'
+Slack : 0.127
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst|2'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst2|2'
+Slack : 0.144
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst5|2'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_gen:inst4|div10_t:inst3|2'
+Slack : 0.160
+TNS   : 0.000
+
+------------------------------------------------------------
