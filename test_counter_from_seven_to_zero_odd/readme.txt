@@ -1,1 +1,1 @@
-下數，以 2 為間隔
+showing odd number counting down 
